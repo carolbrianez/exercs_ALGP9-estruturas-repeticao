@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-25 07:56:59 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMTA7MjAyNS0wNC0yNTsiMDc6MTc6NDEgIjsyMTAx"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMTA7MjAyNS0wNC0yNTsiMDc6NTY6NTkgIjs0OzIyMjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="&#8226; Crie um programa que percorra as c&#233;lulas de&#13;&#10;uma tabela 3x5"/>
+            <declare name="i, j" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="0"/>
+            <while expression="i&lt;4">
+                <assign variable="j" expression="0"/>
+                <while expression="j&lt;5">
+                    <output expression="&quot;linha: &quot;&amp;i&amp;&quot;, coluna: &quot;&amp;j" newline="True"/>
+                    <assign variable="j" expression="j+1"/>
+                </while>
+                <assign variable="i" expression="i+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
