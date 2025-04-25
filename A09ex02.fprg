@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-25 07:47:21 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMTA7MjAyNS0wNC0yNTsiMDc6MTc6NDEgIjsyMTAx"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMTA7MjAyNS0wNC0yNTsiMDc6NDc6MjEgIjszOzIyMTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="&#8226; Crie um programa com um Loop contador de 0&#13;&#10;a 9"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="0"/>
+            <while expression="i&lt;10">
+                <output expression="i" newline="True"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
