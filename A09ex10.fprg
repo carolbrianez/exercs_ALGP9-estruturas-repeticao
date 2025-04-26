@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-25 09:43:21 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMTA7MjAyNS0wNC0yNTsiMDc6MTc6NDEgIjsyMTAx"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMTA7MjAyNS0wNC0yNTsiMDk6NDM6MjEgIjsxODsyMjY0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="&#8226; Crie um algoritmo que mostre a tabuada de acordo com o n&#250;mero informado pelo usu&#225;rio."/>
+            <declare name="n, tab" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite a tabuada desejada: &quot;" newline="True"/>
+            <input variable="n"/>
+            <for variable="tab" start="0" end="10" direction="inc" step="1">
+                <output expression="n &amp;&quot; x &quot;&amp;tab&amp;&quot; = &quot;&amp;(n*tab)" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
