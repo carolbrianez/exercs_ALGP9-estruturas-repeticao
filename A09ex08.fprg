@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-25 09:03:22 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMTA7MjAyNS0wNC0yNTsiMDc6MTc6NDEgIjsyMTAx"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMTA7MjAyNS0wNC0yNTsiMDk6MDM6MjIgIjsxMTsyMjU0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="&#8226; Crie um programa que solicite ao usu&#225;rio o &#13;valor inicial e o valor final de um contador &#13;un&#225;rio"/>
+            <declare name="inicial, final" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o n&#250;mero inicial: &quot;" newline="True"/>
+            <input variable="inicial"/>
+            <output expression="&quot;Digite o n&#250;mero final: &quot;" newline="True"/>
+            <input variable="final"/>
+            <for variable="inicial" start="inicial" end="final" direction="inc" step="1">
+                <output expression="inicial" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
