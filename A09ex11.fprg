@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-25 09:45:04 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMTA7MjAyNS0wNC0yNTsiMDc6MTc6NDEgIjsyMTAx"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMTA7MjAyNS0wNC0yNTsiMDk6NDU6MDQgIjsyMDsyMjYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="&#8226; Crie um contador decremental de 10 a 0."/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <for variable="n" start="10" end="0" direction="dec" step="1">
+                <output expression="&quot;Contando...&quot; &amp;n" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
